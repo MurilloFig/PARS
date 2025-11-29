@@ -25,18 +25,23 @@ No Kali, geralmente você já tem tudo. Se precisar:
 ```bash
 sudo apt update
 sudo apt install wget dnsutils -y
+```
 
 ## Como usar ?
 
 1. Dar permissão de execução:
+```
 chmod +x pars.sh
-
-2. Executar o script:
+```
+3. Executar o script:
+```
 ./pars.sh https://example.com.br/
-
+```
 Exemplo de saída
+```
                     URL                     |          IP
 -----------------------------------------------------------------------------
 1. intranet.businesscorp.com.br             | 37.59.174.228
 2. mail.businesscorp.com.br                 | 37.59.174.227
 3. srvkey.businesscorp.com.br               | 37.59.174.235
+```
