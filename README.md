@@ -26,7 +26,8 @@ No Kali, geralmente você já tem tudo. Se precisar:
 sudo apt update
 sudo apt install wget dnsutils -y
 
-Como usar ?
+## Como usar ?
+
 1. Dar permissão de execução:
 chmod +x pars.sh
 
